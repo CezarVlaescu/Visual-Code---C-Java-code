@@ -1,0 +1,15 @@
+D:\Visual Code\Challenge Guess the Number\bin\Debug\net7.0\Challenge Guess the Number.exe
+D:\Visual Code\Challenge Guess the Number\bin\Debug\net7.0\Challenge Guess the Number.deps.json
+D:\Visual Code\Challenge Guess the Number\bin\Debug\net7.0\Challenge Guess the Number.runtimeconfig.json
+D:\Visual Code\Challenge Guess the Number\bin\Debug\net7.0\Challenge Guess the Number.dll
+D:\Visual Code\Challenge Guess the Number\bin\Debug\net7.0\Challenge Guess the Number.pdb
+D:\Visual Code\Challenge Guess the Number\obj\Debug\net7.0\Challenge Guess the Number.csproj.AssemblyReference.cache
+D:\Visual Code\Challenge Guess the Number\obj\Debug\net7.0\Challenge Guess the Number.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Code\Challenge Guess the Number\obj\Debug\net7.0\Challenge Guess the Number.AssemblyInfoInputs.cache
+D:\Visual Code\Challenge Guess the Number\obj\Debug\net7.0\Challenge Guess the Number.AssemblyInfo.cs
+D:\Visual Code\Challenge Guess the Number\obj\Debug\net7.0\Challenge Guess the Number.csproj.CoreCompileInputs.cache
+D:\Visual Code\Challenge Guess the Number\obj\Debug\net7.0\Challenge Guess the Number.dll
+D:\Visual Code\Challenge Guess the Number\obj\Debug\net7.0\refint\Challenge Guess the Number.dll
+D:\Visual Code\Challenge Guess the Number\obj\Debug\net7.0\Challenge Guess the Number.pdb
+D:\Visual Code\Challenge Guess the Number\obj\Debug\net7.0\Challenge Guess the Number.genruntimeconfig.cache
+D:\Visual Code\Challenge Guess the Number\obj\Debug\net7.0\ref\Challenge Guess the Number.dll
