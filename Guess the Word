@@ -1,0 +1,45 @@
+using System.Text;
+
+class GuessTheWord
+{
+    static void Main(string[] args)
+    {
+    
+        // Declaring your variables need for the game 
+        
+        string secretWord = "C#";
+        string guess = "";
+        int guessCount = 0;
+        int guessLimit = 3;
+        bool outofGuesses = false;
+        
+        // While loop to run the program until the limit goes to 3
+
+        while (guess != secretWord && !outofGuesses) 
+        {
+        
+            // 3 attempts
+            
+            if (guessCount < guessLimit)
+            {
+                Console.Write("Enter your word here: "); 
+                guess = Console.ReadLine(); // user input
+                guessCount++; // increment until the if statement is false 
+            }
+            else
+            {
+                outofGuesses = true; // if statement is not true, then we run out of guesses 
+            }
+        }
+        if (outofGuesses)
+        {
+            Console.Write("You lose");
+        }
+        else
+        {
+            Console.Write("You win");
+        }
+
+    }
+
+}
