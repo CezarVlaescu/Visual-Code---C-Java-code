@@ -1,23 +1,19 @@
-using Polymorphism;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class Solution
+namespace Polymorphism
 {
-    static void Main(string[] args)
+    public class Teacher
     {
-        // Polymorphism
-
-        Teacher students = new Students();
-        Teacher senior = new Senior();
-        List <Teacher> interactiors = new List <Teacher>();
-
-        interactiors.Add(students);
-        interactiors.Add(senior);
-
-        foreach(Teacher teacher in interactiors)
+        public virtual void SeniorTalk()
         {
-            teacher.SeniorTalk();
-            teacher.StudentsTalk();
+            Console.WriteLine("Hello Mr/Mrs. my name is Cezar.");
         }
-
+        public virtual void StudentsTalk() 
+        {
+            Console.WriteLine("Hi my name is Cezar");
+        }
     }
-}
