@@ -4,22 +4,23 @@ public class Solution
    {
           var Mystack = new Stack <char>();
 
-             foreach (var its in s)
+             foreach (var part in s)
              {
-                if (its == '(' || its == '[' || its == '{')
+                if (part == '(' || part == '[' || part == '{')
                 {
-                    Mystack.Push(its);
+                    Mystack.Push(part);
                 }
-                else if (its == ')' || its == ']' || its == '}')
+                else if (part == ')' || part == ']' || part == '}')
                 {
                     if (Mystack.Count <= 0)
                     {
                         return false;
                     }
-                   var check = Mystack.Peek();
-                   if (its == ')' && check == '(' || 
-                    its == ']' && check == '[' || 
-                    its == '}' && check == '{'   )
+                   
+                    var check = Mystack.Peek();
+                    if (part == ')' && check == '(' || 
+                    part == ']' && check == '[' || 
+                    part == '}' && check == '{'   )
                     {
                         Mystack.Pop();
                     }
