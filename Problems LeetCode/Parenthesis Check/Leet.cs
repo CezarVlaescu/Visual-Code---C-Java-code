@@ -2,7 +2,7 @@ public class Solution
 {
     public bool IsValid(string s)
    {
-          var Mystack    = new Stack <char>();
+          var Mystack = new Stack <char>();
 
              foreach (var its in s)
              {
