@@ -1,3 +1,8 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Polimorfism
 {
@@ -5,6 +10,21 @@ namespace Polimorfism
     {
         public string HP { get; set; }
         public string Color { get; set; }
+
+        // has a relationship
+
+        protected CarIDInfo carIDInfo = new CarIDInfo();
+
+        public void SetCarIDInfo(int idNum, string owner) 
+        {
+            carIDInfo.IDNum = idNum;
+            carIDInfo.Owner = owner;
+        }
+
+        public void GetCarIDInfo()
+        {
+            Console.WriteLine($"The car has the ID of {carIDInfo.IDNum} and is owned by {carIDInfo.Owner}");
+        }
 
         //default class 
         public Car()
