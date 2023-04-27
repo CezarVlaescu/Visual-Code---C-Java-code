@@ -20,9 +20,14 @@ class Solution
 
         car1.ShowDetails();
         car2.ShowDetails();
+        
 
         BMW m1 = new BMW("M5", "3400", "white");
         m1.ShowDetails();
+
+        m1.SetCarIDInfo(120, "Cezar");
+        m1.GetCarIDInfo();
+        
 
         Car carB = (Car)m1;
         carB.ShowDetails();
