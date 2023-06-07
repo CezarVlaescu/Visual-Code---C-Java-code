@@ -1,0 +1,37 @@
+class Solution
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine(KthFactor(7, 2));
+    }
+    public static int KthFactor(int n, int k)
+    {
+        if(n < 0 || k < 0)
+        {
+            return -1; // return -1 if one of the integers are negative
+        }
+        
+        List<int> factors = new List<int>();  // list the factors of n
+
+        for(int i = 1; i < n; i++) 
+        {
+            if(n % i == 0) 
+            {
+                factors.Add(i); // add the factors of n
+            }
+        }
+        factors.Add(n); // add the n at last
+
+        int length = factors.Count();
+
+        if (length < k)
+        {
+            return -1; // return -1 if length of factors are less than k 
+        }
+
+        int[] array = factors.ToArray();
+
+        return array[k - 1];
+
+    }
+}
