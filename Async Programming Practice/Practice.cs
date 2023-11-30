@@ -1,6 +1,6 @@
 namespace AsyncBreakfast
 {
-    // These classes are intentionally empty for the purpose of this example. They are simply marker classes for the purpose of demonstration, contain no properties, and serve no other purpose.
+    // These classes are intentionally empty for the purpose of this example. They are simply marker classes for the purpose of demonstration, contain no properties.
     internal class Bacon { }
     internal class Coffee { }
     internal class Egg { }
