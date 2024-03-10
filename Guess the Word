@@ -24,7 +24,7 @@ class GuessTheWord
             {
                 Console.Write("Enter your word here: "); 
                 guess = Console.ReadLine(); // user input
-                guessCount++; // increment until the if statement is false 
+                guessCount++;
             }
             else
             {
